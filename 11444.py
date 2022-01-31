@@ -1,11 +1,8 @@
 def fiv(n):
-    
-    if n == 0:
-        return 0
-    elif n == 1:
-        return 1
-    else:
-        return 1 + fiv(n-1)
+    ans = 0
+    for i in range(n):
+        ans += i
+        
 
 if __name__ == '__main__':
     n = 4
